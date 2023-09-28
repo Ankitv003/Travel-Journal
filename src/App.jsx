@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {cardData}
+      <section className="card-list">{cardData}</section>
     </div>
   );
 };
